@@ -1,9 +1,8 @@
 import './App.css'
-import {useState} from "react";
 import Task2 from "./tasks/Task2.jsx";
 
 function App() {
-  const [age, setAge] = useState(18)
+  // const [age, setAge] = useState(18)
   return (
     // <>
     //   <h1 style={{color: "rebeccapurple", background: "transparent"}}>HELLO WORLD</h1>
