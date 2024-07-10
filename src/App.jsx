@@ -1,6 +1,6 @@
 import './App.css'
 import {useState} from "react";
-import Task from "./tasks/Task.jsx";
+import Task2 from "./tasks/Task2.jsx";
 
 function App() {
   const [age, setAge] = useState(18)
@@ -12,7 +12,10 @@ function App() {
     //   <br />
     //   <h3>{age < 18 ? 'Under Age' : 'Adult'} </h3>
     // </>
-    <Task />
+
+    // <Task1 />
+
+    <Task2/>
   )
 }
 

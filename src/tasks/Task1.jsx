@@ -1,10 +1,9 @@
-/*
-  h1, p, list of 6 netflix series using ordered list
- */
+// h1, p, list of 6 netflix series using ordered list
 import React from 'react'
 
 const series = ['Hit & Run', 'Barbarians', 'Treason', 'Marco Polo', 'Shadowhunters', 'The Recruit']
-function Task() {
+
+function Task1() {
   return (
     <>
       <h1>Netflix</h1>
@@ -16,4 +15,4 @@ function Task() {
   )
 }
 
-export default Task
+export default Task1
