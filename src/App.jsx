@@ -1,5 +1,7 @@
 import "./App.css";
 import ReactEvents from "./components/ReactEvents.jsx";
+import Task1 from "./tasks/Task1.jsx";
+import Task3 from "./tasks/Task3.js";
 
 function App() {
   // const [age, setAge] = useState(18);
@@ -35,7 +37,9 @@ function App() {
   //
   // return <Example3 {...info} />;
 
-  return <ReactEvents />;
+  // return <ReactEvents />;
+
+  return <Task3 />;
 }
 
 export default App;

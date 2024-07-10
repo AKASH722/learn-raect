@@ -1,4 +1,5 @@
-// h1, p, list of 6 netflix series using ordered list
+// covert to uppercase
+
 const series = [
   "Hit & Run",
   "Barbarians",
@@ -8,18 +9,18 @@ const series = [
   "The Recruit",
 ];
 
-function Task1() {
+function Task3() {
   return (
     <>
       <h1>Netflix</h1>
       <p>Action Series: </p>
       <ol>
         {series.map((name, index) => (
-          <li key={index}>{name}</li>
+          <li key={index}>{name.toUpperCase()}</li>
         ))}
       </ol>
     </>
   );
 }
 
-export default Task1;
+export default Task3;
