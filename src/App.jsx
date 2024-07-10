@@ -1,7 +1,7 @@
 import "./App.css";
 import ReactEvents from "./components/ReactEvents.jsx";
 import Task1 from "./tasks/Task1.jsx";
-import Task3 from "./tasks/Task3.js";
+import Task3 from "./tasks/Task3.jsx";
 
 function App() {
   // const [age, setAge] = useState(18);
