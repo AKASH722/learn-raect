@@ -1,7 +1,4 @@
 // add 1 h1, p => current date, p => current time
-
-import React from 'react'
-
 function Task2() {
   return (
     <>
@@ -9,7 +6,7 @@ function Task2() {
       <p>Date: {new Date().toLocaleDateString()}</p>
       <p>Time: {new Date().toLocaleTimeString()}</p>
     </>
-  )
+  );
 }
 
-export default Task2
+export default Task2;
