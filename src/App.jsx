@@ -1,7 +1,11 @@
 import "./App.css";
-import ReactEvents from "./components/ReactEvents.jsx";
-import Task1 from "./tasks/Task1.jsx";
-import Task3 from "./tasks/Task3.jsx";
+import { Navigate, Route, Routes } from "react-router-dom";
+import Home from "./components/routing/Home.jsx";
+import Contact from "./components/routing/Contact.jsx";
+import Shop from "./components/routing/Shop.jsx";
+import NoPage from "./components/routing/NoPage.jsx";
+import React from "react";
+import Navbar from "./components/routing/NavBar.jsx";
 
 function App() {
   // const [age, setAge] = useState(18);
@@ -39,7 +43,33 @@ function App() {
 
   // return <ReactEvents />;
 
-  return <Task3 />;
+  // return <Task3 />;
+
+  // return <Task4 />;
+
+  // return <ImageEx />;
+
+  // return <Task5 />;
+
+  // return (
+  //   <Task6 color="red" bgColor="pink" fontStyle="italic" fontSize="50px" />
+  // );
+
+  // return <List />;
+
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Navigate to={"/home"} />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="*" element={<Navigate to={"/not-found"} />} />
+        <Route path="/not-found" element={<NoPage />} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;
