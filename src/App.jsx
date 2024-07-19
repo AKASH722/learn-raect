@@ -1,6 +1,21 @@
 import "./App.css";
 import React from "react";
-import { Task8 } from "./tasks/Task8.jsx";
+import Task10 from "./tasks/Task10.jsx";
+
+const students = [
+  {
+    name: "John",
+    rollNo: 100,
+    t1: 120,
+    t2: 115,
+  },
+  {
+    name: "Alice",
+    rollNo: 150,
+    t1: 115,
+    t2: 112,
+  },
+];
 
 function App() {
   // const [age, setAge] = useState(18);
@@ -70,7 +85,11 @@ function App() {
 
   // return <UseStateEx />;
 
-  return <Task8 />;
+  // return <Task8 />;
+
+  // return <Task9 />;
+
+  return <Task10 students={students} />;
 }
 
 export default App;
