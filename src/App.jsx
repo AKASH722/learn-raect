@@ -1,11 +1,6 @@
 import "./App.css";
-import { Navigate, Route, Routes } from "react-router-dom";
-import Home from "./components/routing/Home.jsx";
-import Contact from "./components/routing/Contact.jsx";
-import Shop from "./components/routing/Shop.jsx";
-import NoPage from "./components/routing/NoPage.jsx";
 import React from "react";
-import Navbar from "./components/routing/NavBar.jsx";
+import { Task8 } from "./tasks/Task8.jsx";
 
 function App() {
   // const [age, setAge] = useState(18);
@@ -57,19 +52,25 @@ function App() {
 
   // return <List />;
 
-  return (
-    <>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Navigate to={"/home"} />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="*" element={<Navigate to={"/not-found"} />} />
-        <Route path="/not-found" element={<NoPage />} />
-      </Routes>
-    </>
-  );
+  // return (
+  //   <>
+  //     <Navbar />
+  //     <Routes>
+  //       <Route path="/" element={<Navigate to={"/home"} />} />
+  //       <Route path="/home" element={<Home />} />
+  //       <Route path="/contact" element={<Contact />} />
+  //       <Route path="/shop" element={<Shop />} />
+  //       <Route path="*" element={<Navigate to={"/not-found"} />} />
+  //       <Route path="/not-found" element={<NoPage />} />
+  //     </Routes>
+  //   </>
+  // );
+
+  // return <Task7 />;
+
+  // return <UseStateEx />;
+
+  return <Task8 />;
 }
 
 export default App;
