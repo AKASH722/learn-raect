@@ -2,20 +2,20 @@ import "./App.css";
 import React from "react";
 import Task12 from "./tasks/task12/Task12.jsx";
 
-const students = [
-  {
-    name: "John",
-    rollNo: 100,
-    t1: 120,
-    t2: 115,
-  },
-  {
-    name: "Alice",
-    rollNo: 150,
-    t1: 115,
-    t2: 112,
-  },
-];
+// const students = [
+//   {
+//     name: "John",
+//     rollNo: 100,
+//     t1: 120,
+//     t2: 115,
+//   },
+//   {
+//     name: "Alice",
+//     rollNo: 150,
+//     t1: 115,
+//     t2: 112,
+//   },
+// ];
 
 function App() {
   // const [age, setAge] = useState(18);
