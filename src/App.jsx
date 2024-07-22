@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import Task12 from "./tasks/task12/Task12.jsx";
+import { Task13 } from "./tasks/Task13.jsx";
 
 // const students = [
 //   {
@@ -95,7 +95,9 @@ function App() {
 
   // return <Task11 />;
 
-  return <Task12 />;
+  // return <Task12 />;
+
+  return <Task13 />;
 }
 
 export default App;

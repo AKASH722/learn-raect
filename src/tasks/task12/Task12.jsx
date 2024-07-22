@@ -19,3 +19,7 @@ const Task12 = () => {
   );
 };
 export default Task12;
+
+/**
+ * create react app which takes user defined input n1 and n2 and perform add / sub of two numbers
+ */
